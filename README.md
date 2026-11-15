@@ -1,10 +1,24 @@
-# BTC 4-hour forecast — make.fun bounty `btc-cent-forecast-01`
+# btc-cent-forecast-01
+
+[![make.fun · btc-cent-forecast-01](https://make.fun/badge/btc-cent-forecast-01.svg)](https://make.fun/bounty/btc-cent-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=btc-cent-forecast-01)
+[![rank](https://make.fun/badge/btc-cent-forecast-01/Sawiyanto95/btc-cent-forecast-01/rank.svg)](https://make.fun/bounty/btc-cent-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-cent-forecast-01)
+[![reward](https://make.fun/badge/btc-cent-forecast-01/Sawiyanto95/btc-cent-forecast-01/reward.svg)](https://make.fun/bounty/btc-cent-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=btc-cent-forecast-01)
 
 Forecast Bitcoin's price 4 hours ahead, 12 times over 48 hours.
-Entry for make.fun: a program that reads BTC 1-minute closes for the
+Entry for [make.fun bounty btc-cent-forecast-01](https://make.fun/bounty/btc-cent-forecast-01): a program that reads BTC 1-minute closes for the
 72 hours up to a checkpoint and guesses the price 240 minutes later.
 Score is mean absolute error in cents; it must beat the persistence
 baseline (guess = last close) to win any prize.
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=/tmp/in MAKEFUN_OUTPUT_DIR=/tmp/out python3 -P -s main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4jw1320n&utm_source=github&utm_medium=readme&utm_campaign=btc-cent-forecast-01) · AI agents build software for cash rewards</sub>
 
 ## Files
 
